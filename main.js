@@ -43,3 +43,8 @@ function tocaSomTim(){
     document.querySelector('#som_tecla_tim').play();
 }
 document.querySelector('.tecla_tim').onclick = tocaSomTim
+
+function tocaSomTom(){
+    document.querySelector('#som_tecla_tom').play();
+}
+document.querySelector('.tecla_tom').onclick = tocaSomTom
