@@ -1,1 +1,1 @@
-print('Olá Mundo')
+alert('Olá Mundo')
