@@ -5,9 +5,9 @@ function tocaSomPom(){
 document.querySelector('.tecla_sabia').onclick = tocaSomSabia;
 
 function tocaSomClap(){
-    document.querySelector('#som_tecla_clap').play();
+    document.querySelector('#som_tecla_larangeira').play();
 }
-document.querySelector('.tecla_clap').onclick = tocaSomClap
+document.querySelector('.tecla_larangeira').onclick = tocaSomLarangeira
 
 function tocaSomTim(){
     document.querySelector('#som_tecla_tim').play();
