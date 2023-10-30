@@ -1,13 +1,13 @@
 alert('Olá Mundo')
-function tocaSomSabia(){
-    document.querySelector('#som_tecla_sabia').play();
+function tocaSomPom(){
+    document.querySelector('#som_tecla_pom').play();
 }
-document.querySelector('.tecla_sabia').onclick = tocaSomSabia;
+document.querySelector('.tecla_pom').onclick = tocaSomPom;
 
-function tocaSomLarangeira(){
-    document.querySelector('#som_tecla_larangeira').play();
+function tocaSomClap(){
+    document.querySelector('#som_tecla_clap').play();
 }
-document.querySelector('.tecla_larangeira').onclick = tocaSomLarangeira
+document.querySelector('.tecla_clap').onclick = tocaSomClap
 
 function tocaSomTim(){
     document.querySelector('#som_tecla_tim').play();
