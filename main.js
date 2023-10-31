@@ -49,7 +49,3 @@ function tocaSomTom(){
 }
 document.querySelector('.tecla_tom').onclick = tocaSomTom
 
-function tocaSabia(){
-    document.querySelector('#som_tecla_sabia').play();
-}
-document.querySelector('.tecla_sabia').onclick = tocaSabia
