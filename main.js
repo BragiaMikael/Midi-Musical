@@ -1,8 +1,8 @@
 alert('Olá Mundo')
-function tocaSomSabia(){
-    document.querySelector('#som_tecla_sabia').play();
+function tocaSomPom(){
+    document.querySelector('#som_tecla_pom').play();
 }
-document.querySelector('.tecla_sabia').onclick = tocaSomSabia
+document.querySelector('.tecla_pom').onclick = tocaSomPom
 
 function tocaSomClap(){
     document.querySelector('#som_tecla_clap').play();
