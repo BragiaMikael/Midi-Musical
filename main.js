@@ -2,7 +2,7 @@ alert('Olá Mundo')
 function tocaSomSabia(){
     document.querySelector('#som_tecla_sabia').play();
 }
-document.querySelector('.tecla_sabia').onclick = tocaSomSabia;
+document.querySelector('.tecla_sabia').onclick = tocaSomSabia
 
 function tocaSomClap(){
     document.querySelector('#som_tecla_clap').play();
