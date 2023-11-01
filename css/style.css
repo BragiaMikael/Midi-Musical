@@ -8,7 +8,7 @@
   
   body {
     align-items: center;
-    background: linear-gradient(45deg, #c7e2c7 20%,#44b835 80%, #000000 100%);
+    background: linear-gradient(45deg, #30d1bf 0%,#fbd54c 60%, #2df5eb 100%);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -35,7 +35,7 @@
   .tecla {
     background-color: var(--branca);
     border-radius: 30px;
-    box-shadow: 3px 3px 0 var(#5a7bc8);
+    box-shadow: 3px 3px 0 #3f6261;
     color: var(--vermelha);
     cursor: pointer;
     height: 120px;
@@ -65,4 +65,10 @@
   .tecla:active:focus {
     box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
   }
+img{
+  width: 90px;
+  border-radius: 10px;
+  position: relative;
+  top: 15px;
+}
   
