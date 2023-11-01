@@ -3,7 +3,7 @@ function tocaSomSabia(){
 }
 document.querySelector('.tecla_sabia').onclick = tocaSomSabia
 
-function tocaSomLarangeira(){
-    document.querySelector('#som_tecla_larangeira').play();
+function tocaSomCampina(){
+    document.querySelector('#som_tecla_campina').play();
 }
-document.querySelector('.tecla_larangeira').onclick = tocaSomLarangeira
+document.querySelector('.tecla_campina').onclick = tocaSomCampina
